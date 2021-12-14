@@ -19,8 +19,8 @@ features:
 
   rate: 'For 2D, the rate is \(\Omega(\sqrt(\frac{1}{N\log(N)}))\), with minimum distance \(D = \Omega(\sqrt(N log(N))\). For 3D, the rate is \(\Omega(\frac{1}{\sqrt(N)\log(N))\) with minimum distance \(d \geq \sqrt(n) \log(n)\) \cite{arXiv:2004.07935}.'
   
-  decoders: 
-    - 'For 2d simplicial complexes, cycle code decoder which is a polynomial time algorithm can be used \cite{rXiv:2004.07935}.'
+decoders: 
+  - 'For 2d simplicial complexes, cycle code decoder which is a polynomial time algorithm can be used \cite{rXiv:2004.07935}.'
 
 notes:
   - 'Breaks the Freedman et al. lower bound on scaling of minimum distance \cite{doi:10.1103/PRXQuantum.2.040101}.'
